@@ -8,6 +8,6 @@ let passport = {
 let passportx = Object.assign({},passport);
 passportx.name = "Ivan";
 
-console.log(passport);
-console.log(passportx);
+console.log(passport.name);
+console.log(passportx.name);
 
